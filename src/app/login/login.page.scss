@@ -1,0 +1,41 @@
+  ion-content{
+
+    background-image: -webkit-gradient(
+    	linear,
+    	left top,
+    	left bottom,
+    	color-stop(0, #1B567B),
+    	color-stop(1, #341A4A)
+    );
+    background-image: -o-linear-gradient(bottom, #1B567B 0%, #341A4A 100%);
+    background-image: -moz-linear-gradient(bottom, #1B567B 0%, #341A4A 100%);
+    background-image: -webkit-linear-gradient(bottom, #1B567B 0%, #341A4A 100%);
+    background-image: -ms-linear-gradient(bottom, #1B567B 0%, #341A4A 100%);
+    background-image: linear-gradient(to bottom, #1B567B 0%, #341A4A 100%);
+    --background: initial !important;
+
+  }
+
+  img{
+    width: 150px;
+  }
+
+  h3{
+    color: white;
+  }
+
+  .top-20{
+    margin-top: 20%;
+  }
+
+  .top-5{
+    margin-top: 5%;
+  }
+
+  .google{
+    --background: #dd4b39;
+  }
+
+  .facebook{
+    --background:#3b5998;
+  }
